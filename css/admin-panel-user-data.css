@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed';
+}
+
+.admin-panel-user-data-page {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.modal-add {
+    width: 500px;
+    border-radius: 0;
+}
+
+.modal-delete {
+    width: 400px;
+}
+
+.admin-panel-user-data-add {
+    margin: 10px;
+    padding: 10px;
+    text-align: end;
+}
+
+.admin-panel-user-btn {
+    width: 80px;
+    background: none;
+    color: #41464b;
+    border: 1px solid #41464b;
+    border-radius: 0;
+}
+
+.admin-panel-user-btn:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #ffa502;
+    transition: all .5s ease-in-out;
+}
+
+.admin-panel-user-btn:active {
+    color: #fff;
+    background-color: #3742fa;
+}
+
+.admin-panel-user-data {
+    display: flex;
+    overflow: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.admin-panel-user-data-thead {
+    color: #fff;
+    background-color: #3742fa;
+}
+
+tbody > .admin-panel-user-data-tr:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.02);
+}
+
+.admin-panel-user-data-tr > .edit-delete {
+    text-align: center;
+}
+
+.admin-panel-user-data-tr > th,
+.admin-panel-user-data-tr > td {
+    padding: 12px 15px;
+    max-width: 250px;
+}
+
+.admin-panel-user-data-tr > td > a {
+    background: none;
+    border: none;
+    outline: none;
+    transition: all .5s ease-in-out;
+}
+
+.admin-panel-user-data-tr > td > a:hover {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.admin-panel-user-data-tr > td > a > i {
+    color: #3742fa;
+}
+
+.admin-panel-user-data-tr > td > a > .fa-trash {
+    color: rgb(245, 69, 69);
+}
+
+.admin-panel-user-data-tr > td > a > i:hover {
+    text-shadow: 0px 0px 20px #3742fa;
+}
+
+.admin-panel-user-pagination-area {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination .page-item {
+    list-style: none;
+}
+
+.pagination .page-link {
+    background-color: #fff;
+    font-size: 14px;
+    color: #41464b;
+    font-weight: 600;
+    padding: 8px 18px;
+    border: 1px solid #000;
+}
+
+.pagination .page-item.active .page-link,
+.pagination .page-link:hover {
+    color: #fff;
+    background-color: #ffa502;
+}
+
+.user-data-feedback-form .form-control,
+.user-data-feedback-form .form-select {
+    border-radius: 0;
+    border-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #414;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.user-data-feedback-form .form-select .option {
+    padding: 12px 20px;
+    margin: 8px;
+}
+
+.user-data-textarea-box {
+    display: flex;
+    position: relative;
+}
+
+.user-data-textarea-box textarea {
+    height: 110px;
+    resize: none;
+    overflow: hidden;
+}
+
+.user-data-textarea-box span {
+    color: #666;
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+}
+
+.user-data-feedback-form input::-webkit-outer-spin-button,
+.user-data-feedback-form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Firefox */
+.user-data-feedback-form input[type=number] {
+  -moz-appearance: textfield;
+  appearance: none;
+}
+
+.user-data-feedback-submit {
+    text-align: end;
+}
+
+.user-data-feedback-submit .btn {
+    color: #fff;
+    border-radius: 0;
+    width: 100px;
+    background-color: #3742fa;
+    transition: width .5s ease-in-out;
+}
+
+.user-data-feedback-submit .btn:hover {
+    background-color: #ffa502;
+}

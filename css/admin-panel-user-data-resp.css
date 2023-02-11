@@ -1,0 +1,39 @@
+@media (max-width: 847px) {
+    .admin-panel-user-data-add {
+        margin-right: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 719px) {
+
+    .modal-dialog {
+        width: auto;
+    }
+    
+    .user-data-feedback-form {
+        padding: 0;
+        border: none;
+    }
+
+    .admin-panel-user-data {
+        padding: 0;
+    }
+
+    #admin-panel-user-data-table {
+        font-size: 0.8em;
+        border-collapse: collapse;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .admin-panel-user-data-tr > th,
+    .admin-panel-user-data-tr > td {
+        padding: 7px 10px;
+    }
+
+    .admin-panel-user-data-tr {
+        overflow: auto;
+    }
+}
